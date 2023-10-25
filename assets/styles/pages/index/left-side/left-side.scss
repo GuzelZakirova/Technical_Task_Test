@@ -1,0 +1,18 @@
+.left-side {
+    /*
+    Генератор mobile first медиа-запросов
+    */
+    @include start-at("xslg") {
+        margin-right: 15px;
+        display: inline-block;
+        width: 35%;
+    }
+    /*
+    Генератор desktop first медиа-запросов
+    */
+    @include active-by("xslg") {
+        display: block;
+        width: auto;
+        margin-bottom: 15px;
+    }
+}

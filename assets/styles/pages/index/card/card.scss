@@ -1,0 +1,14 @@
+.card {
+    padding: 15px;
+    border-radius: 3px;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.color-success {
+    border-left: 10px solid var(--color_success);
+}
+
+.color-danger {
+    border-left: 10px solid var(--color_danger);
+}
